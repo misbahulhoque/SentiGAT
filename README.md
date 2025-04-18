@@ -21,6 +21,8 @@ A graph attention network (GAT)-based framework for enhanced multimodal sentimen
 
   _python extract_face.py --mvsa single --enable-visual_
 
+  * Similarly, extract visual features such as global, object, and image-embedded text.
+
 ## Train and Evaluation
 * To train and evaluate the model,
 
