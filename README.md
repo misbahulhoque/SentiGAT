@@ -24,4 +24,4 @@ A graph attention network (GAT)-based framework for enhanced multimodal sentimen
 ## Train and Evaluation
 * To train and evaluate the model,
 
- _python models/SentiGAT.py --mvsa single --batch-size 32 --lr 1e-5 --epochs 20 --splits 1 --drop-out 0.5 --hidden-dim 512_
+ _python models/SentiGAT.py --mvsa single --batch-size 32 --lr 1e-4 --epochs 20 --splits 1 --drop-out 0.5 --hidden-dim 512_
