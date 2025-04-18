@@ -15,10 +15,13 @@ A graph attention network (GAT)-based framework for enhanced multimodal sentimen
 
 ## Feature Extraction
 * Textual feature extraction,
-  python extract/extract_text.py --mvsa single
+
+  _python extract/extract_text.py --mvsa single_
 * Visual feature extraction (facial expression),
-  python extract_face.py --mvsa single --enable-visual
+
+  _python extract_face.py --mvsa single --enable-visual_
 
 ## Train and Evaluation
 * To train and evaluate the model,
-python models/SentiGAT.py --mvsa single --batch-size 32 --lr 1e-5 --epochs 20 --splits 1 --drop-out 0.5 --hidden-dim 512
+
+_python models/SentiGAT.py --mvsa single --batch-size 32 --lr 1e-5 --epochs 20 --splits 1 --drop-out 0.5 --hidden-dim 512_
