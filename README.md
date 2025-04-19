@@ -6,7 +6,7 @@ A graph attention network (GAT)-based framework for enhanced multimodal sentimen
 
 * Download and extract both MVSA-single and MVSA-multiple datasets from
 (https://mcrlab.net/research/mvsa-sentiment-analysis-on-multi-view-social-data/)
-* Store the data to data/ folder.
+* Store the data in the data/ folder.
 * data/ folder:
   * 10-fold train/val/test splits (0-indexed) provided in data/ folder for each dataset.
   * valid_pairs.txt contain `file_id, target_label, text_label, image_label` for each valid pair of text-image.
